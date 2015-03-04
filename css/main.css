@@ -20,7 +20,9 @@ html {
 }
 
 form {
-    text-align: center;   
+    text-align: center;
+    background-color: #04a076;
+    padding: 1em;
 }
 
 .title {
@@ -28,7 +30,7 @@ form {
     font-size: 1.5em;
     margin: 0 auto;
     display: block;
-    color: #04a076;
+    color: #4a4848;
 }
 
 input {
@@ -60,7 +62,7 @@ ul {
 }
 
 li {    
-    padding: 2.5em 3em 0 0;
+    padding: 1.5em 3em 0 0;
 }
 
 .x-button {
