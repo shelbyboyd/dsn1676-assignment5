@@ -32,7 +32,7 @@ form {
 }
 
 input {
-    width: 85%;
+    width: 75%;
     height: 20px;
     text-align: center;
     float: center;
@@ -42,12 +42,11 @@ input {
 
 button {
     background-color: #beb8b8;
-    border: 1px solid #4a4848;
-    text-align: top;
+    border: 2px solid #4a4848;
     padding: 1.5em 1.5em;
-    margin: 1.5em;
     color: #04a076;
-    float: left;
+    float: right;
+    margin-right: 5%;
 }
 
 ul {
@@ -65,7 +64,7 @@ li {
 }
 
 .x-button {
-    text-align: center;
+    text-align: top;
     border: 2px solid #BEB8B8;
     background-color: #4A4848;
     height: 30px;

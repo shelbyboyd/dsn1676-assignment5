@@ -13,7 +13,7 @@ $form.on('submit', function (eventObject) {
     var $inputRemove = $('<button class="remove x-button">X</button>');
     
     $inputRemove.on('click', function () {
-        $theLi.remove('theLi');
+        $theLi.remove('li');
     });
     
     $theLi.click(function(){
