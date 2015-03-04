@@ -44,8 +44,8 @@ button {
     background-color: #beb8b8;
     border: 1px solid #4a4848;
     text-align: center;
-    padding: .5em .5em;
-    margin: 1em;
+    padding: 1.5em 1.5em;
+    margin: 1.5em;
     color: #04a076;
     float: left;
 }
@@ -57,7 +57,7 @@ ul {
 
 .done {
     text-decoration: line-through;
-    color: blue;
+    color: #4a4848;
 }
 
 li {    
@@ -66,16 +66,14 @@ li {
 
 .x-button {
     text-align: center;
-    margin: 0;
-    padding: 0;
-    border: 1px solid #4A4848;
-    background-color: #BEB8B8;
+    border: 1px solid #BEB8B8;
+    background-color: #4A4848;
     height: 30px;
     width: 30px;
 }
 
 .x-button:hover {
-    color: cornflowerblue;
+    color: #04a076;
     background-color: #4a4848;
 }
 
