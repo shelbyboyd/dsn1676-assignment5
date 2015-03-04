@@ -1,26 +1,26 @@
 var $form = $('form');
 var $input = $('#items');
 var $theList = $('.list');
-var $li = $('<li>');
+var $theLi = $('<li>');
 
 $form.on('submit', function (eventObject) {
     eventObject.preventDefault();
     
     
-    var $li = $('<li>');
-    $li.html($input.val());
+    var $theLi = $('<li>');
+    $theLi.html($input.val());
     
     var $inputRemove = $('<button class="remove x-button">x</button>');
     
     $inputRemove.on('click', function () {
-        $li.remove('li');
+        $theLi.remove('li');
     });
     
-    $li.click(function(){
+    $theLi.click(function(){
         $(this).addClass('done');
     });
     
-    $li.append($inputRemove);
+    $theLi.append($inputRemove);
     $theList.prepend($li);
     $input.val('');
 });

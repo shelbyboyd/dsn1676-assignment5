@@ -43,10 +43,9 @@ input {
 button {
     background-color: #beb8b8;
     border: 1px solid #4a4848;
-    border-radius: 50%;
     text-align: center;
     padding: .5em .5em;
-    margin: 0;
+    margin: 1em;
     color: #04a076;
     float: left;
 }
@@ -70,10 +69,9 @@ li {
     margin: 0;
     padding: 0;
     border: 1px solid #4A4848;
-    border-radius: .5em;
     background-color: #BEB8B8;
     height: 30px;
-    width: 20px;
+    width: 30px;
 }
 
 .x-button:hover {
