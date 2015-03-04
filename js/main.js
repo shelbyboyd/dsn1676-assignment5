@@ -21,7 +21,7 @@ $form.on('submit', function (eventObject) {
     });
     
     $theLi.append($inputRemove);
-    $theList.prepend($li);
+    $theList.prepend($theLi);
     $input.val('');
 });
 
